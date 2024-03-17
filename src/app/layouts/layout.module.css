@@ -1,0 +1,39 @@
+/* .main_container {
+    background-image: url('../../assets/main/main_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh;
+}
+
+.gradient_text {
+} */
+
+/* Стили для контейнера */
+.main_container {
+    background-color: #f0f0f0; /* Цвет фона */
+    padding: 50px; /* Внутренний отступ */
+    border-radius: 10px; /* Скругление углов */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Стили для заголовка */
+.gradient_text {
+    font-size: 36px; /* Размер шрифта */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+/* Стили для текстовых блоков */
+.text_block {
+    display: flex; /* Расположение блоков в ряд */
+    justify-content: center; /* Выравнивание по центру */
+}
+
+.text_block span {
+    margin: 0 20px; /* Отступы между текстовыми блоками */
+}
+
+.text_block p {
+    font-size: 18px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+}

@@ -1,0 +1,14 @@
+.section {
+    position: relative;
+}
+
+.card_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2px;
+}
+
+.choosed {
+    border: 1px solid black !important;
+}

@@ -1,0 +1,36 @@
+@keyframes wave {
+    0%,
+    100% {
+        transform: translateY(0);
+        color: red; /* Начальный цвет текста */
+    }
+    50% {
+        transform: translateY(-20px);
+        color: blue; /* Конечный цвет текста */
+    }
+}
+
+@keyframes wave-dots {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.wave-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.wave-text {
+    font-size: 24px;
+    animation: wave 1.5s ease-in-out infinite;
+}
+
+.wave-dots {
+    animation: wave-dots 1.5s ease-in-out infinite;
+}

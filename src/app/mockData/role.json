@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "67rdca3eeb7f6fgeed47189",
+        "name": "Роли неопределены",
+        "type": "primary"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471810",
+        "name": "Керри",
+        "type": "carry"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471811",
+        "name": "Дизаблер",
+        "type": "disabler"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471812",
+        "name": "Инициатор",
+        "type": "initiator"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471813",
+        "name": "Лесник",
+        "type": "jungler"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471814",
+        "name": "Танк",
+        "type": "durable"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471815",
+        "name": "Нюкер",
+        "type": "nuker"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471816",
+        "name": "Пушер",
+        "type": "pusher"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471817",
+        "name": "Эскейпер",
+        "type": "escape"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471818",
+        "name": "Саппорт",
+        "type": "support"
+    }
+]

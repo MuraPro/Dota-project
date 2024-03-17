@@ -1,0 +1,43 @@
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-item {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    opacity: 0;
+    transition:
+        transform 0.5s ease-in-out,
+        opacity 0.5s ease-in-out;
+}
+
+.carousel-item.active {
+    left: 0;
+    opacity: 1;
+}
+
+h1 {
+    position: absolute; /* Абсолютное позиционирование для наложения на изображение */
+    top: 25px; /* Размещаем заголовок по вертикали по центру */
+    left: 50%; /* Размещаем заголовок по горизонтали по центру */
+    transform: translate(
+        -50%,
+        -50%
+    ); /* Центрируем заголовок относительно его центра */
+    color: #fff; /* Белый цвет текста */
+    font-size: 2em; /* Размер шрифта */
+    text-align: center; /* Выравнивание текста по центру */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень текста */
+}
+
+@media (max-width: 479.9px) {
+    .carousel-control-prev {
+        top: 50px !important;
+    }
+    .carousel-control-next {
+        top: 50px !important;
+    }
+}

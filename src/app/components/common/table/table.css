@@ -1,0 +1,19 @@
+@media (max-width: 575.9px) {
+    .column2 {
+        display: none;
+    }
+    .column3 {
+        display: none;
+    }
+    .column4 {
+        display: none;
+    }
+}
+
+.table_border {
+    outline: none !important;
+}
+
+.table {
+    background-color: transparent !important; /* Устанавливаем прозрачный фон */
+}

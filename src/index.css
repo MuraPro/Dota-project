@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
 }
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body::-webkit-scrollbar {
+    width: 0; /* Ширина полосы прокрутки */
+    height: 0; /* Высота полосы прокрутки */
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+[hidden] {
+    display: none;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+
+/* body { */
+/* margin: 0; */
+/* -webkit-font-smoothing: antialiased; */
+/* -moz-osx-font-smoothing: grayscale; */
+/* padding: 0 calc(20px - (100vw - 100%)) 0 0; */
+/* } */
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none !important;
+}
+
+.btn:active {
+    border-color: transparent !important;
 }

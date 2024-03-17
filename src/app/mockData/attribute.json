@@ -1,0 +1,27 @@
+[
+    {
+        "_id": "67rdca3eeb7f6fgeed47169",
+        "name": "Неопределен",
+        "type": ""
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471610",
+        "name": "Интеллект",
+        "type": "intelligence"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471611",
+        "name": "Ловкость",
+        "type": "dexterity"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471612",
+        "name": "Сила",
+        "type": "force"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471613",
+        "name": "Универсал",
+        "type": "versatility"
+    }
+]

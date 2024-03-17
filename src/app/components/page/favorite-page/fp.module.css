@@ -1,0 +1,13 @@
+.search_input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.search_input:focus {
+    border-color: #007bff; /* Цвет при фокусе */
+}

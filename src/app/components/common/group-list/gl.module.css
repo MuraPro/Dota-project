@@ -1,0 +1,18 @@
+.select_list {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.filter_button {
+    width: 150px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: none;
+    background: transparent;
+}

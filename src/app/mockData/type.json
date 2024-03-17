@@ -1,0 +1,17 @@
+[
+    {
+        "_id": "67rdca3eeb7f6fgeed471731",
+        "name": "Не указан",
+        "type": "not_specified"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed471732",
+        "name": "Дальний бой",
+        "type": "ranged"
+    },
+    {
+        "_id": "67rdca3eeb7f6fgeed4718733",
+        "name": "Ближний бой",
+        "type": "сlose"
+    }
+]
